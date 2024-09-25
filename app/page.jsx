@@ -1,16 +1,16 @@
-import CaseStudies from '@/components/CaseStudies'
-import ContactUs from '@/components/ContactUs'
-import Footers from '@/components/Footers'
-import Headers from '@/components/Headers'
-import Hero from '@/components/Hero'
-import Services from '@/components/Services'
-import Team from '@/components/Team'
-import Testimonials from '@/components/Testimonials'
-import WorkProgress from '@/components/WorkProgress'
+import CaseStudies from '@/app/layout/CaseStudies'
+import ContactUs from '@/app/layout/ContactUs'
+import Footers from '@/app/layout/Footers'
+import Headers from '@/app/layout/Headers'
+import Hero from '@/app/layout/Hero'
+import Services from '@/app/layout/Services'
+import Team from '@/app/layout/Team'
+import Testimonials from '@/app/layout/Testimonials'
+import WorkProgress from '@/app/layout/WorkProgress'
 import React from 'react'
 const page = () => {
     return (
-        <div>
+        <div className='py-[3.76rem]'>
             <div>
                 <Headers />
             </div>

@@ -1,16 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{jsx}",
-    "./components/**/*.{jsx}",
-    "./app/**/*.{jsx}",
+    "./pages/**/*.{jsx,tsx}",
+    "./components/**/*.{jsx,tsx}",
+    "./app/**/*.{jsx,tsx}",
   ],
   theme: {
     container: {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px"
+        "2xl": "1400px",
+        "md": "940px",
       },
     },
     extend: {
