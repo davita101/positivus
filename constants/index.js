@@ -1,4 +1,4 @@
-const { amazon, Company, hubspot, notion, netflix, zoom } = require("@/public/assets/icons/company")
+const { amazon, hubspot, notion, netflix, zoom, company } = require("@/public/assets/icons/company")
 const { linkedin, facebook, twitter } = require("@/public/assets/icons/social")
 const { seo, ppc, smm, em, cc, aat, mainPhoto } = require("@/public/assets/images/services")
 const { johnSmith, janeDoe, michaelBrown, emilyJohnson, brianWilliams, sarahKim } = require("@/public/assets/images/team")
@@ -37,7 +37,7 @@ export const logos = [
         alt: "Amazon logo"
     },
     {
-        src: Company,
+        src: company,
         alt: "Company logo",
     },
     {

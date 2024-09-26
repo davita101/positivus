@@ -10,8 +10,7 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
-        "md": "940px",
+        "2xl": "1450px",
       },
     },
     extend: {
@@ -20,13 +19,16 @@ module.exports = {
         "lightGray": "#F3F3F3",
         "primaryDark": "#191A23"
       },
+      boxShadow: {
+        '3xl': '0px 2px 0px 0px rgba(0, 0, 0, 1)',
+      },
       fontSize: {
         "baseText": "16px",
         "headingLarge": "60px",
         "headingMedium": "40px",
         "headingSmall": "30px",
         "headingXSmall": "20px",
-        "headingLargeLarge": "43px",
+        "headingLargeMobile": "43px",
         "headingMediumMobile": "36px",
         "headingSmallMobile": "26px",
         "headingXSmallMobile": "18px",
