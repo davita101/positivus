@@ -1,3 +1,4 @@
+'use'
 import CaseStudies from '@/app/layout/CaseStudies'
 import ContactUs from '@/app/layout/ContactUs'
 import Footers from '@/app/layout/Footers'
@@ -19,7 +20,7 @@ const page = () => {
                     <Hero />
                 </section>
                 <section>
-                    <Services />
+                    <Services />        
                 </section>
                 <section>
                     <CaseStudies />

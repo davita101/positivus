@@ -21,9 +21,9 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <div className='flex justify-center flex-wrap md:gap-[5.96rem] gap-[2rem]'>
+                <div className='flex md:justify-between justify-center flex-wrap md:gap-[5.96rem]  gap-[2rem]'>
                 {logos.map((item,index) => (
-                    <Image src={item.src} alt={item.alt} className='w-[128.57px] text-gray-400'/>
+                    <Image src={item.src} alt={item.alt} className=' text-gray-400 grayscale'/>
                 ))}
             </div>  
             </div>
