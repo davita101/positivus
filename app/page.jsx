@@ -1,4 +1,3 @@
-'use'
 import CaseStudies from '@/app/layout/CaseStudies'
 import ContactUs from '@/app/layout/ContactUs'
 import Footers from '@/app/layout/Footers'

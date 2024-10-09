@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1450px",
       },
@@ -20,7 +20,7 @@ module.exports = {
         "primaryDark": "#191A23"
       },
       boxShadow: {
-        '3xl': '0px 2px 0px 0px rgba(0, 0, 0, 1)',
+        '3xl': '0px 5px 0px 0px rgba(0, 0, 0, 1)',
       },
       fontSize: {
         "baseText": "16px",

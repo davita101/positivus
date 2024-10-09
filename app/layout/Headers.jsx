@@ -7,10 +7,10 @@ import React, { useState } from 'react'
 const Headers = () => {
     const [click, setClick] = useState(false)
     return (
-        <div className='bg-white'>
+        <div className='bg-white relative z-[99] pb-5'>
             <div className='md:h-[10.625rem] h-[5.375rem]' />
             <div className='container top-[0] pb-[2rem] right-0 left-0 fixed font-thin text-headingXSmall flex items-center justify-center'>
-                <div className='md:flex gap-4  pt-[3.75rem] bg-white items-center w-full flex justify-between'>
+                <div className='md:flex gap-4 pb-[1rem]  pt-[3.75rem] bg-white items-center w-full flex justify-between'>
                     {/* desktop */}
                             <div className='flex cursor-pointer items-center text text-headingSmall gap-2'>
                                 <Image src={logoBlack} alt="Website logo" className='w-[2.25rem]' />
@@ -35,7 +35,7 @@ const Headers = () => {
                                     <li key={index} className='cursor-pointer  transition-all hover:opacity-[.5]'>{item.li}</li>
                                 ))}
                             </ul>
-                            <Button className={"hover:bg-black hover:text-white"}>Request a quote</Button>
+                            <Button className={"hover:bg-black  hover:text-white"}>Request a quote</Button>
                         </div>
                     </div>
                 </div>

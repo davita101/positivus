@@ -121,6 +121,7 @@ export const caseStudiesHeading = [
     {
         headingLarge: "Case Studies",
         span: "Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
+
     }
 ];
 export const caseStudies = [
