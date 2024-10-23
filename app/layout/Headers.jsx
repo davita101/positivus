@@ -22,7 +22,7 @@ const Headers = () => {
                                         <li key={index} className='cursor-pointer  transition-all hover:opacity-[.5]'>{item.li}</li>
                                     ))}
                                 </ul>
-                                <Button className={"hover:bg-black w-[565px] max-md:hidden hover:text-white"}>Request a quote</Button>
+                        <Button className={" hover:bg-black w-[565px] max-md:hidden hover:text-white"}>Request a quote</Button>
                             </div>
                         {/* mobile */}
                     <div

@@ -13,7 +13,7 @@ const Hero = () => {
                     {/* image animation */}
                     <Image className='md:hidden w-full' src={heroMobile} alt='hero logo'/>
                     <p className='md:text-headingXSmall text-headingXSmallMobile md:max-w-[31.125rem] opacity-[.7]'>{hero[0].paragraph}</p>
-                    <Button className={"bg-black text-white"}>Book a consultation</Button>
+                    <Button className={"bg-black hover:bg-white text-white"}>Book a consultation</Button>
                 </div>
                 <div>
                     {/* image Animation */}
