@@ -29,7 +29,7 @@ const Team = () => {
               </div>
               <div className='w-full h-[.1rem] bg-black/50' />
               <div>
-                <p className='text-baseText text-primaryDark/70 max-w-[270px]'>{item.paragraph}</p>
+                <p className='text-baseText text-primaryDark/70 md:max-w-[270px]'>{item.paragraph}</p>
               </div>
             </div>
           ))
