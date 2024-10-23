@@ -141,7 +141,7 @@ export const caseStudies = [
 export const ourWorkingProcessHeading = [
     {
         headingLarge: "Our Working Process",
-        span: "Step-by-Step Guide to Achieving Your Business Goals"
+        paragraph: "Step-by-Step Guide to Achieving Your Business Goals"
     }
 ];
 
