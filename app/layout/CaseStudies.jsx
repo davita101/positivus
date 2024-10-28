@@ -12,11 +12,11 @@ const CaseStudies = () => {
                 <h2 className='rounded-[10px] leading-[50px] px-[7px] md:text-headingMedium text-headingMediumMobile bg-accentGreen text-black'>{caseStudiesHeading[0].headingLarge}</h2>
                 <p className='text-baseText sm:max-w-[480px] text-primaryDark/80'>{caseStudiesHeading[0].paragraph}</p>
             </div>
-            <div className='lg:bg-primaryDark text-white overflow-x-scroll lg:rounded-[50px]'>
-                <div className='flex max-lg:w-[300vw] overflow-x-auto justify-between lg:p-[70px] gap-4'>
+            <div className='lg:bg-primaryDark text-white overflow-x-scroll snap-x  lg:rounded-[50px]'>
+                <div className='flex max-lg:w-[300vw] justify-between lg:p-[70px] gap-4'>
                     {caseStudies.map((item, index) => (
-                        <a href={item.link} className='flex text-accentGreen gap-[15px]'>
-                            <div className=' flex max-lg:p-[70px]  max-lg:rounded-[50px] max-lg:bg-primaryDark lg:w-[310px]' key={`_testimonial-${index}`}>
+                        <a href={item.link} className='flex text-accentGreen snap-start gap-[15px]'>
+                            <div className=' flex max-lg:p-[70px] max-lg:rounded-[50px] max-lg:bg-primaryDark lg:w-[310px]' key={`_testimonial-${index}`}>
                                 <div className='flex flex-col justify-between'>
                                     <p className='text-white'>{item.paragraph}</p>
                                     <div className='flex gap-[15px]'>

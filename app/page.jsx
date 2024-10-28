@@ -5,36 +5,29 @@ import Headers from '@/app/layout/Headers'
 import Hero from '@/app/layout/Hero'
 import Services from '@/app/layout/Services'
 import Team from '@/app/layout/Team'
-import Testimonials from '@/app/layout/Testimonials'
 import WorkProgress from '@/app/layout/WorkProgress'
 import React from 'react'
 const page = () => {
     return (
-        <div className='py-[3.76rem]'>
+        <div className='pt-[3.76rem] scroll-smooth'>
             <div>
                 <Headers />
             </div>
             <main className='text-heading4'>
-                <section>
+                <section id='aboutUs'>
                     <Hero />
-                </section>
-                <section>
+                </section >
+                <section id='services'>
                     <Services />        
                 </section>
-                <section >
+                <section id='useCases'>
                     <CaseStudies />
                 </section>
-                <section>
+                <section className='pricing'>
                     <WorkProgress />
                 </section>
-                <section>
+                <section id='blog'>
                     <Team />
-                </section>
-                <section>
-                    <Testimonials />
-                </section>
-                <section>
-                    <ContactUs />
                 </section>
             </main>
             <footer>

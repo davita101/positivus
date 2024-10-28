@@ -6,23 +6,24 @@ const { johnSmith, janeDoe, michaelBrown, emilyJohnson, brianWilliams, sarahKim 
 
 export const header = [
     {
-        link: "aboutUs",
+        link: "#aboutUs",
         li: "About us",
+        
     },
     {
-        link: "services",
+        link: "#services",
         li: "Services",
     },
     {
-        link: "useCases",
+        link: "#useCases",
         li: "Use Cases",
     },
     {
-        link: "pricing",
+        link: "#pricing",
         li: "Pricing",
     },
     {
-        link: "blog",
+        link: "#blog",
         li: "Blog",
     }
 ];
@@ -232,7 +233,7 @@ export const team = [
 export const testimonialsHeading = [
     {
         headingLarge: "Testimonials",
-        span: "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
+        paragraph: "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
     }
 ];
 export const testimonials = [
@@ -288,32 +289,39 @@ export const contactUs = [
     }
 ];
 
+export const footerLinks = []
 export const footerSocial = [
     {
+        li: "linkedin",
         src: linkedin,
         alt: "Linkedin logo",
         link: "https://www.linkedin.com"
     },
     {
+        li: "facebook",
         src: facebook,
         alt: "Facebook logo",
         link: "https://www.facebook.com"
     },
     {
+        li: "twitter",
         src: twitter,
         alt: "Twitter logo",
-        link: "https://www.wtitter.com"
+        link: "https://www.twitter.com"
     }
 ];
 export const contact = [
     {
         email: "info@positivus.com",
-        phone: "Phone: 555-567-8901",
+        phone: "555-567-8901",
         address: "1234 Main St Moonstone City, Stardust State 12345"
     }
 ];
 export const copyright = [
     {
         paragraph: "© 2023 Positivus. All Rights Reserved."
-    }
+    },
+    {
+        paragraph: "Privacy Policy"
+    },
 ];
