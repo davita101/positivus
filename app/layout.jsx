@@ -7,7 +7,7 @@ export const metadata = {
     keywords: "Digital Marketing, SEO, PPC, Social Media Marketing, Content Creation, Email Marketing, Analytics",
     author: "Davit Grdzelishvili",
     icons: {
-        icon: ["/favicon.svg"], // Ensure you have the favicon in the public directory
+        icon: ["/Favicon.svg"], // Ensure you have the favicon in the public directory
     },
     openGraph: {
         title: "Positivus | Leading Digital Marketing Agency",
